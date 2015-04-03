@@ -1,0 +1,25 @@
+<?php
+
+return [
+    'install' => 'Installation Zend Framework',
+    'video' => 'Screencast',
+    'articles' => 'Articles',
+    'forum' => 'Forum',
+    'about' => 'About us',
+    'auth' => 'Auth',
+    'login' => 'Login',
+    'register' => 'Register',
+    'info' => 'User info',
+    'logout' => 'Logout',
+    'search' => 'Search...',
+    'welcome' => 'Community Zend Framework is created to help everyone who wants to understand and begin to work effectively with features PHP Zend Framework.',
+    'new' => 'New Articles',
+    'best' => 'Popular articles',
+    'last' => 'Latest comments',
+    'help' => 'Support: zendframeworks@gmail.com <br>© '. date ('Y'). ', Zend Framework developers community ',
+    'author' => 'Author',
+    'all_art' => 'All articles',
+    'all_com' => 'All comments',
+    'your_com' => 'Your comment',
+    'add_com' => 'Add new comment',
+];

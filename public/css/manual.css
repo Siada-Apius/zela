@@ -1,0 +1,323 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    background-color: #E4E4E4;
+    color: #4f4e4e;
+    font-family: "Trebuchet";
+    margin-bottom: 100px;
+    font-size: 16px
+}
+
+footer.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #3b3c3a;
+    color: #b4ff3f;
+}
+
+@media (max-width: 768px) {
+    .logo_button {
+        background-image: url("../images/organ/logo_v4.2.png");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        height: inherit;
+        margin: 0 20px;
+        width: 220px;
+    }
+
+    .header a.navbar-brand {
+        padding: 0 15px;
+        width: 79%;
+    }
+
+    div.news_blocks ul li {
+        background-color: #F6F6F6;
+        display: inline-flex;
+        padding: 15px;
+        float: none;
+        margin: 3px auto;
+        width: 100%;
+    }
+
+    div.article_info {
+        border-top: 1px dotted #888;
+        display: list-item;
+        padding: 5px 0;
+    }
+
+    .dropdown-menu > li > a { color: inherit; }
+
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #fff;
+    }
+}
+
+@media (min-width: 768px) {
+    .logo_button {
+        background-image: url("../images/organ/zend-framaworks-logo-1.png");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        height: inherit;
+        width: 70px;
+    }
+
+    .header a.navbar-brand {
+        margin-left: 0 !important;
+        padding: 0 15px;
+        width: 100px;
+    }
+
+    div.news_blocks ul li {
+        background-color: #F6F6F6;
+        display: inline-flex;
+        float: none;
+        margin: 3px auto;
+        padding: 15px;
+        width: 33%;
+    }
+
+    div.article_info {
+        border-top: 1px dotted #888;
+        display: flex;
+        padding: 5px 0;
+    }
+}
+
+a.navbar_logo {
+    margin: 0 !important;
+    padding: 0;
+}
+
+.navbar-default {
+    border-color: transparent;
+    background-color: #3193b4;
+    background-image: linear-gradient(#35a4cb, #3193b4);
+    color: #ffffff;
+}
+
+header .navbar {
+    box-shadow: 0 0 10px #000;
+}
+
+div#navbar li a {
+    text-shadow: 0 0 2px #000;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #ffffff;
+}
+
+nav.navbar-admin {
+    box-shadow: none;
+    background-color: #3b3c3a;
+    border-radius: 2px 2px 2px 2px;
+    border: 1px solid #26728C;
+    color: #FFFFFF;
+}
+
+.navbar-admin .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+    background-color: #26728C;
+    color: #fff;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #3b3c3a;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    background-color: #2b829f;
+    border-radius: 2px 2px 2px 2px;
+    border: 1px solid #26728C;
+    color: #FFFFFF;
+}
+
+nav.navbar-admin a.navbar-brand {
+    color: #fff;
+}
+
+.greetings {
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 0 7px #dadada;
+    margin: 10px auto 0;
+    padding: 5px 10px;
+}
+
+.greetings h3 { color: #6ac00e;  }
+
+a { color: #24b9ff; }
+
+a:hover { color: #000; }
+
+div.news_blocks {
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 0 0 7px #dadada;
+    margin: 10px 0;
+    padding-bottom: 5px;
+}
+
+div.news_blocks ul li:hover {
+    background-color: #dadada;
+    box-shadow: 0 0 5px #000;
+    color: #000;
+}
+
+div.headerList {
+    background-color: #41c741;
+    background-image: -moz-linear-gradient(center top , #41c741, #329b32);
+    border-radius: 2px 2px 0 0;
+    line-height: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+div.headerList span{
+    color: #fff;
+}
+
+div.news-article {
+    background-color: #ffffff;
+    border-radius: 1px;
+    font-size: 17px;
+    padding: 10px;
+}
+
+div.user_info {
+    background-color: #ffffff;
+    border-radius: 1px;
+    font-size: 17px;
+    padding: 10px;
+}
+
+div.news-article div.user_info {
+    background-color: #ffffff;
+    border-radius: 1px;
+    border-top: 1px dotted #888;
+    font-size: 17px;
+    padding: 10px;
+}
+
+span.news-article-span {
+    font-size: 14px;
+    font-style: italic;
+}
+
+div.news-blocks {
+    background-color: #fff;
+}
+
+div.news_blocks ul.list-unstyled {
+    padding: 0 15px 5px;
+}
+
+div.comment_block {
+    height: 495px;
+    overflow-x: hidden;
+    white-space: nowrap;
+}
+
+div.last_comments {
+    margin: 0;
+}
+div.best_articles { margin: 0 0 -5px; }
+
+div.best_articles ul,
+div.last_comments ul {
+    padding-bottom: 10px;
+}
+
+div.best_articles li,
+div.last_comments li { padding: 0 10px; }
+
+div.last_comments li { font-size: 17px;  }
+
+div.last_comments a { color: #0f0f0f; }
+div.last_comments a:hover { color: #24b9ff; }
+
+div.best_articles a { color: #0091d5; }
+div.best_articles a:hover { color: #000; }
+
+div.userBlock {
+    margin-bottom: 15px;
+}
+
+span.article_info_tags li { display: inline-block; }
+span.article_info_tags li a { color: #6ac00e; }
+span.article_info_tags li a:hover { color: #000; }
+
+span.article_info_tags li:after {
+    color: #000;
+    content: ' | ';
+}
+
+span.article_info_tags li:last-child:after {
+    content: none;
+}
+
+.commentsNumIcon {
+    background: url("../images/organ/comment.png") no-repeat scroll 0 0 / 100% auto rgba(0, 0, 0, 0);
+    display: inline-block;
+    height: 23px;
+    position: relative;
+    right: 3px;
+    top: 8px;
+    width: 20px;
+    margin-left:5px;
+}
+
+.authorIcon {
+    background: url("../images/organ/author.png") no-repeat scroll 0 0 / 100% auto rgba(0, 0, 0, 0);
+    display: inline-block;
+    height: 23px;
+    position: relative;
+    right: 3px;
+    top: 8px;
+    width: 20px;
+}
+
+div.article_body {
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+
+div.comments_block ul {
+    padding: 10px;
+}
+
+div.comments_block li {
+    border-bottom: 1px solid #bfbfbf;
+}
+
+div.comments_block li:last-child {
+    border-bottom: none;
+}
+
+div.code_sample {
+    background-color: #fff;
+    border: 1px solid #dadada;
+    font-size: 12px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 95%;
+}
