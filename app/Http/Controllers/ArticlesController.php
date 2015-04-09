@@ -9,7 +9,6 @@ use App\Tag;
 use Auth;
 use Illuminate\Http\Request;
 use Carbon\Carbon;
-use Illuminate\Support\Facades\Input;
 
 class ArticlesController extends Controller {
 
@@ -60,8 +59,6 @@ class ArticlesController extends Controller {
      */
     public function store(ArticleRequest $request)
     {
-        $file = $request->file('add_file')->getClientOriginalName();
-        dd($file);
         $this->createArticles($request);
 
         return redirect('articles');
@@ -87,10 +84,6 @@ class ArticlesController extends Controller {
      */
     public function update(Article $article, ArticleRequest $request)
     {
-        $file = $request->input('add_file');
-        $file->move(public_path().'/uploads', $file);
-        dd($file);
-
         $article->update($request->all());
 
         $this->syncTags($article, $request->input('tag_list'));
