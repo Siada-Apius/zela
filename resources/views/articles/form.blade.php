@@ -3,11 +3,6 @@
 @endsection
 
 <div class="form-group">
-    {!! Form::label('add_file', 'Add file:') !!}
-    {!! Form::file('add_file', null, ['class' => 'form-control']) !!}
-</div>
-
-<div class="form-group">
     {!! Form::label('title', 'Title') !!}
     {!! Form::text('title', null, ['class' => 'form-control']) !!}
 
