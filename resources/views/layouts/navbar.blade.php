@@ -23,6 +23,7 @@
                     <select class="selectpicker form-control navbar-form" id="lang">
                         <option value="ua" {{ Lang::locale() === 'ua' ? 'selected' : '' }}>Українська</option>
                         <option value="ru" {{ Lang::locale() === 'ru' ? 'selected' : '' }}>Русский</option>
+                        <option value="en" {{ Lang::locale() === 'en' ? 'selected' : '' }}>English</option>
                     </select>
                 </li>
             </ul>
