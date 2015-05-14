@@ -46,8 +46,8 @@
                     </li>
                 @endif
             </ul>
-            <form class="navbar-form navbar-right">
-                <input type="text" class="form-control" placeholder="{{ trans('facade.search') }}">
+            <form class="navbar-form navbar-right" method="GET" action="{{ action('SearchController@search') }}">
+                <input type="text" name="query" class="form-control" placeholder="{{ trans('facade.search') }}">
             </form>
         </div>
     </div>
