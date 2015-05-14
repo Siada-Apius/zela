@@ -12,7 +12,21 @@
             <h4 class="text-center">Articles by this tag:</h4>
             <ul>
                 @foreach($tag->articles as $article)
-                    <li><a href="/articles/{{ $article->uri }}">{{ $article->title }}</a></li>
+                    @if(App::getLocale() == 'ua')
+                        {{--*/
+                        $title = $article->title;
+                         /*--}}
+                    @elseif(App::getLocale() == 'ru')
+                        {{--*/
+                        $title = $article->title_rus;
+                        /*--}}
+                    @elseif(App::getLocale() == 'en')
+                        {{--*/
+                        $title = $article->title_eng;
+                        /*--}}
+                    @endif
+
+                    <li><a href="/articles/{{ $article->uri }}">{{ $title }}</a></li>
                 @endforeach
             </ul>
         @endunless

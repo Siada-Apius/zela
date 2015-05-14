@@ -100,7 +100,7 @@
             @include('articles.comment')
             {!! Form::close() !!}
         @else
-            <a href="{{ url('auth/login') }}" class="btn btn-info">{{ trans('facade.add_com') }}</a>
+            <p><a href="{{ url('auth/login') }}" class="btn btn-info">{{ trans('facade.add_com') }}</a></p>
         @endif
     </div>
 
