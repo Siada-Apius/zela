@@ -45,7 +45,7 @@
 
                     <tr>
                         <td>Frameworks</td>
-                        <td>Zend Framework(2012)</td>
+                        <td>Zend Framework(2012), Laravel 5 (2014)</td>
                     </tr>
 
                     <tr>
