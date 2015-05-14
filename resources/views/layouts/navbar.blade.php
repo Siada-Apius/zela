@@ -17,7 +17,7 @@
                 <li><a href="{{ url('tutorial') }}">{{ trans('facade.install') }}</a></li>
                 <li><a href="{{ url('video') }}">{{ trans('facade.video') }}</a></li>
                 <li><a href="{{ url('articles') }}">{{ trans('facade.articles') }}</a></li>
-                <li><a href="{{ url('forum') }}">{{ trans('facade.forum') }}</a></li>
+                <!-- <li><a href="{{ url('forum') }}">{{ trans('facade.forum') }}</a></li> -->
                 <li><a href="{{ url('about') }}">{{ trans('facade.about') }}</a></li>
                 <li>
                     <select class="selectpicker form-control navbar-form" id="lang">
