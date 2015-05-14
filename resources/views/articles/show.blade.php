@@ -86,7 +86,7 @@
                     <li class="list-group">
                     <h4>
                         <a itemprop="url" href="{{ url('users', $comment->user->name) }}"><span itemprop="name">{{ $comment->user->name }}</span></a>
-                        <small class="text-muted">• <span itemprop="commentTime">{{ $comment->created_at }}</span></small>
+                        <!-- <small class="text-muted">• <span itemprop="commentTime">{{ $comment->created_at }}</span></small> -->
                     </h4>
                     <p itemprop="commentText">{!! $comment->comment !!}</p></li>
                 @endforeach
