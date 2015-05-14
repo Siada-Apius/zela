@@ -16,7 +16,7 @@ return [
     'new' => 'Новые Статьи',
     'best' => 'Самые Популярные Статьи',
     'last' => 'Последние Комментарии',
-    'help' => 'Служба поддержки: zendframeworks@gmail.com <br>© '. date ('Y'). ', Украинское сообщество Zend Framework',
+    'help' => 'Служба поддержки: zendframeworks@gmail.com <br>©  2012 - '. date ('Y'). ', Украинское сообщество Zend Framework',
     'author' => 'Автор',
     'all_art' => 'Все статьи',
     'all_com' => 'Все комментарии',

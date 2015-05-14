@@ -16,7 +16,7 @@ return [
     'new' => 'New Articles',
     'best' => 'Popular articles',
     'last' => 'Latest comments',
-    'help' => 'Support: zendframeworks@gmail.com <br>© '. date ('Y'). ', Zend Framework developers community ',
+    'help' => 'Support: zendframeworks@gmail.com <br>© 2012 - '. date ('Y'). ', Zend Framework developers community ',
     'author' => 'Author',
     'all_art' => 'All articles',
     'all_com' => 'All comments',
