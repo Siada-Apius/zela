@@ -84,8 +84,7 @@ class ArticlesController extends Controller {
      */
     public function update(Article $article, ArticleRequest $request)
     {
-        $article->update($request->all());
-
+	    $article->update($request->all());
         $this->syncTags($article, $request->input('tag_list'));
 
         return redirect()->route('articles.show', [$article->uri]);
