@@ -2,6 +2,21 @@
     <div class="col-md-6 ">
         <div class = "footerCopyRight">
             {!! trans('facade.help') !!}
+            <br>
+            <?php
+                /*
+                            require_once(realpath($_SERVER['DOCUMENT_ROOT'].'/a24e684c43b84458fd42ba65f81c1a3c/sape.php'));
+
+                            $o['charset'] = 'UTF-8';
+                            $o['multi_site'] = true;
+                            $o['force_show_code'] = true;
+
+                            $sape = new SAPE_client( $o );
+                            echo $sape->return_links(1);
+                            echo $sape->return_links(2);
+                            echo $sape->return_links(3);
+                */
+            ?>
 
         </div>
     </div>
